@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns:v="urn:schemas-microsoft-com:vml">
 
 	<head>
 		<title >EmployeeScreenIQ: Report</title>
@@ -45,61 +45,32 @@
 				.button:hover {background: #febd69 !important; cursor: pointer !important; }
 				.button:visited {background: #fc9a18 !important; cursor: pointer !important; }
 				.button:active {background: #fc9a18 !important; cursor: pointer !important; }
-				.button a:link {color: #f9f9f9 !important; text-decoration: none !important;}
-				.button a:hover {color: #f9f9f9 !important; text-decoration: none !important;}
-				.button a:active {color: #f9f9f9 !important; text-decoration: none !important;}
-				.button a:visited {color: #f9f9f9 !important; text-decoration: none !important;}
-				.footer a:hover { text-decoration: none !important; }
+				a.button:link {color: #f9f9f9 !important; text-decoration: none !important;}
+				a.button:hover {color: #f9f9f9 !important; text-decoration: none !important;}
+				a.button:active {color: #f9f9f9 !important; text-decoration: none !important;}
+				a.button:visited {color: #f9f9f9 !important; text-decoration: none !important;}
+				.footer a.button:hover { text-decoration: none !important; }
 				.footer-small a:hover { text-decoration: underline !important; }
-				@media only screen and (max-device-width: 600px), only screen and (max-width: 600px) {
+				@media only screen and (max-width: 600px) {
 					/* responsive tables */
-					table[id="body"] #templateSidebar, #templateBody{display:block !important; width: 100% !important; padding: 0px !important; margin-bottom: 20px;}
-					table[id="body"] #templateContainer{border-bottom: none !important;}
-					table[id="body"] #templateBody{float: right !important;}
-					table[id="body"] #templateSidebar{float: left !important;}
-					table[id="body"] .padding {display: none !important;}
-					/* Survey Button Mobile */
-					table[id="body"] .button {width: 100% !important; float: none !important; margin: 0 auto !important;}
-					table[id="body"] [id="logo"] a { display: block !important; width: 100% !important; height: 	auto !important; }
-					table[id="body"] .button a {font-size: 38px !important;}
-					table[id="body"] { width: 100% !important; }
-					table[id="body"] h1.mobile-text { font-size: 35px !important;line-height: 1.2em !important;}
-					table[id="body"] h2.mobile-text { font-size: 34px !important;}
-					table[id="body"] p.mobile-text, ul.mobile-text { font-size: 30px !important; line-height: 1.5em !important;}
-					table[id="body"] p.center {text-align: center !important;}
-					table[id="body"] td.mobile-padding {display: none !important; width: 0px;}
 					table[id="body"] .l-outie { padding: 0px !important; }
-					table[id="body"] .l-body-point, table[id="body"] .l-footer, table[id="body"] .l-wrap, table[id="body"] .l-full-bleed, table[id="body"] .media-obj, table[id="body"] .media-content, table[id="body"] .btn, table[id="body"] .btn td { width: 100% !important; }
+					table[id="body"] .l-body-point, table[id="body"] .footer, table[id="body"] .l-wrap, table[id="body"] .full-bleed { width: 100% !important; }
+					table[id="body"] .padding {display: none !important;}
 					table[id="body"] .l-body-point { border-top: none !important; border-right: none !important; border-left: none !important; }
-					table[id="body"] .l-full-bleed img { width: 100% !important; height: auto !important; display: block !important;}
+					/* Survey Button Mobile */
+					table[id="body"] a.button {width: 100% !important; float: none !important; margin: 0 auto !important; font-size: 130% !important;}
+					table[id="body"] .v-margin-dn {display: none !important;}
+					table[id="body"] [class="full-bleed"] a { display: block !important; width: 100% !important; height: 	auto !important; }
+					table[id="body"] { width: 100% !important; }
+					table[id="body"] .full-bleed img { width: 100% !important; height: auto !important; display: block !important;}
 					table[id="body"] .l-pad > tbody > tr > td { padding: 0px !important; }
-					table[id="body"] .l-split { width: 100% !important; }
-					table[id="body"] .l-split + .l-split { margin-top: 32px !important; }
-					table[id="body"] .ill-notebook { width: 100% !important; height: 96px !important; }
 					table[id="body"] .footer { padding-right: 16px !important; padding-left: 16px !important; }
-					table[id="body"] .btn span { display: block !important; }
-					table[id="body"] a[href^="tel"], table[id="body"] a[href^="sms"] { text-decoration: none; color: #747474; pointer-events: none; cursor: default; }
-					.mobile-link table[id="body"] a[href^="tel"], .mobile-link table[id="body"] a[href^="sms"] { text-decoration: default; color: #f9f9f9 !important; pointer-events: auto; cursor: default; }
-					table[id="body"] .icon { padding: 0 22px 22px 0 !important; background-size: 56px 56px !important; }
-					table[id="body"] .icon img { width: 56px !important; height: 56px !important; display: block !important;}
-					table[id="body"] .media-content { padding: 0 0 22px 0 !important; }
-					table[id="body"] .media-content-var { padding: 0 0 22px 0 !important; } }
+					table[id="body"] a[href^="tel"], table[id="body"] a[href^="sms"] { text-decoration: none; color: #527B2A; pointer-events: none; cursor: default; }
+					.mobile-link table[id="body"] a[href^="tel"], .mobile-link table[id="body"] a[href^="sms"] { text-decoration: default; color: #527B2A !important; pointer-events: auto; cursor: default; } }
 				/* More Specific Targeting */
 				@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-					table[id="body"] a[href^="tel"], table[id="body"] a[href^="sms"] { text-decoration: none; color: #747474; /* or whatever your want */ pointer-events: none; cursor: default; }
+					table[id="body"] a[href^="tel"], table[id="body"] a[href^="sms"] { text-decoration: none; color: #527B2A; /* or whatever your want */ pointer-events: none; cursor: default; }
 					.mobile-link table[id="body"] a[href^="tel"], .mobile-link table[id="body"] a[href^="sms"] { text-decoration: default; color: #527B2A !important; pointer-events: auto; cursor: default; }}
-				@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-					table[id="body"] .l-banner img { display: none !important; }
-					table[id="body"] [id="logo"] { background: transparent url("http://hrmarketer.com/users/clients/employeescreeniq/2015/May/images/ESIQ_MarijuanaEmail.png") no-repeat center top !important;
-					background-size: 600px 100px !important; }
-					table[id="body"] [id="logo"] a { display: block !important; width: 600px !important; height: 	100px !important; }
-					table[id="body"] [id="headline"] { background: transparent url("http://hrmarketer.com/users/clients/employeescreeniq/2015/May/images/Marijuana.png") no-repeat center top !important;
-					background-size: 600px 200px !important; }
-					table[id="body"] [id="headline"] a { display: block !important; width: 600px !important; height: 	200px !important; }
-					table[id="body"] .icon { background-size: 82px 68px; width: 82px; height: 68px; }
-					table[id="body"] .icon img { display: none !important; }}
-				@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-device-width: 578px), only screen and (min-resolution: 144dpi) and (max-device-width: 578px), only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 578px), only screen and (min-resolution: 144dpi) and (max-width: 578px) {
-					table[id="body"] .icon { display: block; width: 82px !important; height: 68px !important; background-size: 82px 68px !important; }}
 			/*]]>*/
 		</style>
 	</head>
@@ -129,14 +100,14 @@
 													<table style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #f9f9f9;" bgcolor="#f9f9f9" cellpadding="0" cellspacing="0">
 														<tbody>
 															<tr>
-																<td id="logo" style="text-align: center; border-collapse: collapse;" align="center">
+																<td class="full-bleed" style="text-align: center; border-collapse: collapse;" align="center">
 																	<a href="http://www.employeescreen.com/" title="EmployeeScreenIQ" style="color: #f9f9f9; text-decoration: none;">
 																		<img alt="EmployeeScreenIQ" height="100" width="600" src="http://hrmarketer.com/users/clients/employeescreeniq/2015/May/images/ESIQ_MarijuanaEmail.png" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; color: white; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none;" />
 																	</a>
 																</td>
 															</tr>
 															<tr>
-																<td id="headline" style="text-align: center; border-collapse: collapse;" align="center">
+																<td class="full-bleed" style="text-align: center; border-collapse: collapse;" align="center">
 																	<a href="http://54.241.138.248/ESIQ_Marijuana.html" title="Marijuana is increasingly legal. But does that mean I have to stop screening for it?" style="color: #f9f9f9; text-decoration: none;">
 																		<img alt="Marijuana is increasingly legal. But does that mean I have to stop screening for it?" border="0" height="200" width="600" src="http://hrmarketer.com/users/clients/employeescreeniq/2015/May/images/Marijuana.png" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; color: white; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none;" />
 																	</a>
@@ -164,7 +135,7 @@
 															<tr>
 																<td style="padding-bottom: 0px; background-color: #f9f9f9;" bgcolor="#f9f9f9">
 																	<!-- Responsive Columns -->
-																	<table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateContainer">
+																	<table border="0" cellpadding="0" cellspacing="0" width="100%">
 																		<tr>
 																			<!-- margin-v -->
 																			<td class="v-margin" bgcolor="#f9f9f9" width="30" style="border: none; width:30px; height: 1px; background-color: #f9f9f9;">
@@ -172,7 +143,7 @@
 																			</td>
 
 																			<!-- Left Column -->
-																			<td id="templateBody" align="left" valign="top" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+																			<td align="left" valign="top" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
 
 																				<table style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; " width="100%" cellpadding="0" cellspacing="0">
 																					<!-- margin-h -->
@@ -345,19 +316,30 @@
 																							<tbody>
 																								<tr style="text-align: left; vertical-align: top;" align="left">
 																									<!-- margin-vertical -->
-																									<td class="v-margin" bgcolor="#f9f9f9" width="60" style="border: none; width:60px; height: 1px; background-color: #f9f9f9;">
+																									<td class="v-margin-dn" bgcolor="#f9f9f9" width="60" style="border: none; width:60px; height: 1px; background-color: #f9f9f9;">
 																										<img src="http://hrmarketer.com/users/clients/employeescreeniq/2015/May/images/spacer.png" alt="Spacer" width="60" height="1" hspace="0" vspace="0" style="display: block; width: 60px;" />
 																									</td>
-																									<td class="button" onclick="location.href='http://54.241.138.248/ESIQ_Marijuana.html'" align="center" valign="top" bgcolor="#fc9a18" style="margin: 0px; !important; border-radius: 4px; border-collapse: collapse !important; background-color: #fc9a18;">
-																										<br />
-																											<a style="vertical-align: middle; color: #f9f9f9 !important; line-height: 100%; text-align: center; font-family:	 arial, helvetica, sans-serif; font-size: 24px; font-weight: bold; text-decoration: none !important;" href="http://54.241.138.248/ESIQ_Marijuana.html">
-																												Download the free report.
-																											</a>
-																										<br />
-																										<br />
-																									</td>
+																									<td>
+											                              <div>
+											                                <!--[if mso]>
+											                                  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word"
+											                                  href="http://54.241.138.248/ESIQ_Marijuana.html"
+											                                  style="height:58px;v-text-anchor:middle;width:414px;" arcsize="5%" stroke="f"
+											                                  fillcolor="#fc9a18">
+											                                    <w:anchorlock/>
+											                                    <center>
+											                                    <![endif]-->
+											                                    <a class="button" name="button" style="background-color: #fc9a18; border-radius:4px; color: #ffffff; display: inline-block; line-height: 250%; text-align: center; font-family:	 arial, helvetica, sans-serif; font-size: 24px; font-weight: bold; text-decoration: none !important; text-align: center; width:100%; -webkit-text-size-adjust: none;"
+											                                    href="http://54.241.138.248/ESIQ_Marijuana.html"
+											                                    target="_blank">Download the free report.</a>
+											                                    <!--[if mso]>
+											                                    </center>
+											                                  </v:roundrect>
+											                                <![endif]-->
+											                              </div>
+											                            </td>
 																									<!-- margin-vertical -->
-																									<td class="v-margin" bgcolor="#f9f9f9" width="60" style="border: none; width:60px; height: 1px; background-color: #f9f9f9;">
+																									<td class="v-margin-dn" bgcolor="#f9f9f9" width="60" style="border: none; width:60px; height: 1px; background-color: #f9f9f9;">
 																										<img src="http://hrmarketer.com/users/clients/employeescreeniq/2015/May/images/spacer.png" alt="Spacer" width="60" height="1" hspace="0" vspace="0" style="display: block; width: 60px;" />
 																									</td>
 																								</tr>
@@ -404,20 +386,19 @@
 						</tbody>
 					</table>
 					<!-- ////// End Content Wrap /////// -->
-
-					<!-- Begin Footer -->
-					<table class="footer" width="600" cellpadding="10" style="color: #747778;font-size: 11px;line-height: 15px;text-align: center;margin-left: auto;margin-right: auto;">
-						<tr>
-							<td>
-								<!-- Address -->
-								<p style="margin: 0px; padding: 0px; text-align: center; color: #222222; line-height: 20px; font-family:	 Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal;">
-									<span style="font-family: arial,helvetica,sans-serif;"><a style="color: #5B8726; text-decoration: none;" href="http://employeescreen.com" target="_blank">EmployeeScreenIQ</a> | P.O. Box 22627 | Cleveland, OH 44122 | <a style="color: #5B8726; text-decoration: none;" href="mailto:info@employeescreen.com">info@employeescreen.com</a> | (800) 235-3954</span>
-								<span style="font-family: arial,helvetica,sans-serif;">&nbsp;</span></p>
-							</td>
-						</tr>
-					</table>
-					<!-- Social Sharing -->
-					<center>
+					<center> <!-- centers content for outlook and yahoo -->
+						<!-- Begin Footer -->
+						<table class="footer" width="600" cellpadding="10" style="color: #747778;font-size: 11px;line-height: 15px;text-align: center;margin-left: auto;margin-right: auto;">
+							<tr>
+								<td>
+									<!-- Address -->
+									<p style="margin: 0px; padding: 0px; text-align: center; color: #222222; line-height: 20px; font-family:	 Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal;">
+										<span style="font-family: arial,helvetica,sans-serif;"><a style="color: #5B8726; text-decoration: none;" href="http://employeescreen.com" target="_blank">EmployeeScreenIQ</a> | P.O. Box 22627 | Cleveland, OH 44122 | <a style="color: #5B8726; text-decoration: none;" href="mailto:info@employeescreen.com">info@employeescreen.com</a> | (800) 235-3954</span>
+									<span style="font-family: arial,helvetica,sans-serif;">&nbsp;</span></p>
+								</td>
+							</tr>
+						</table>
+						<!-- Social Sharing -->
 						<table class="row" border="0" cellspacing="0" cellpadding="0">
 							<tbody>
 								<tr>
